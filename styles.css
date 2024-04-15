@@ -1,0 +1,35 @@
+body {
+    height: 100vh;
+    background-image: url('../fotosacademia/PS.png'); /* Substitua 'background_image.jpg' pelo caminho da sua imagem de plano de fundo */
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+div form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+    justify-content: center center;
+    }
+
+.container 
+{
+    max-width: 30%;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+    justify-content: center center;
+}
+
+input[type="submit"] 
+{
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: center;
+}
